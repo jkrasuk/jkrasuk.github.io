@@ -1,0 +1,54 @@
+html, body {
+  height: 100%;
+  margin: 0px;
+  overflow: hidden;
+  font-family: verdana,arial,helvetica,sans-serif;
+  font-size: 15px;
+  color:white;
+}
+
+.bg {
+  position: fixed;
+  top: -50%;
+  left: -50%;
+  width: 200%;
+  height: 200%;
+}
+.bg img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  margin: auto;
+  min-width: 50%;
+  min-height: 50%;
+  width: auto;
+}
+#content canvas, #content .disclaimer {
+  position: absolute;
+  width:100%;
+  height:100%;
+}
+
+.horizontal {
+  display: table;
+  width:100%;
+  height:100%;
+  position: absolute;
+}
+
+.vertical {
+  display: table-cell;
+  vertical-align: middle;
+  width:100%;
+  height:100%;
+}
+
+.name{
+  color: #dadada;
+}
+
+.name-sub{
+  color: #cecece;
+}
